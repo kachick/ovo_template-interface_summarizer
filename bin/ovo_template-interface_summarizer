@@ -1,0 +1,10 @@
+#!/usr/local/bin/ruby -w
+# Copyright (C) 2010-2012 Kenichi Kamiya
+
+require_relative '../lib/ovo_templateinterface_summarizer'
+
+unless ARGV.length >= 1
+  abort "usage: #{$PROGRAM_NAME} interface.dat [*interface.dat]"
+end
+
+OVO_TemplateInterface_Summarizer.run ARGV
