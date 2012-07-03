@@ -3,7 +3,9 @@
 require 'striuct'
 
 module OpenViewOperations; class Templates; class Parser
-  class OPCMSG < self
+  
+  class Interface < self
+    
     Core = Striuct.define do
       valid_string = OR(nil, AND(String, NOT('')))
       member :severities, OR(nil, GENERICS(Symbol))
@@ -52,5 +54,6 @@ module OpenViewOperations; class Templates; class Parser
     end
   end
 
-  Interface = OPCMSG
+  OPCMSG = Interface
+
 end; end; end

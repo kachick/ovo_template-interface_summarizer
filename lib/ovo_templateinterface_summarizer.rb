@@ -3,7 +3,7 @@
 require 'logger'
 require_relative 'openviewoperations/templates'
 require_relative 'openviewoperations/templates/parser'
-require_relative 'openviewoperations/templates/parser/opcmsg'
+require_relative 'openviewoperations/templates/parser/interface'
 require_relative 'ovo_templateinterface_summarizer/csvformatter'
 
 class String
@@ -16,6 +16,7 @@ module OVO_TemplateInterface_Summarizer
 
   include OpenViewOperations
 
+  VERSION = '0.0.1'.freeze
   FORMATTER = CSVFormatter
   TITLE     = FORMATTER.title
   
