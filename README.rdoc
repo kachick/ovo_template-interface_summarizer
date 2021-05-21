@@ -1,17 +1,17 @@
 = ovo_template-interface_summarizer
 
-code :: https://github.com/kachick/ovo_template-interface_summarizer
-bugs :: https://github.com/kachick/ovo_template-interface_summarizer/issues
-gem  :: https://rubygems.org/gems/ovo_template-interface_summarizer
+* <em><b>This repository is archived</b></em>
+* <em><b>No longer maintained</b></em>
+* <em><b>All versions have been yanked from https://rubygems.org for releasing valuable namespace for others</b></em>
 
 == Description
 
 An utility for the OVO(OpenViewOperations).
 "interface.dat(opcmsg templates)" to some CSV files.
 
-== Feutures
+== Features
 
-* Supportting formatted version is "7".
+* Supporting formatted version is "7".
   See the header of "interface.dat"
 
       > head interface.dat
@@ -31,10 +31,6 @@ An utility for the OVO(OpenViewOperations).
   * 1.9.3-p194
 
 * striuct - 0.3.0
-
-== Installation
-
-* gem install ovo_template-interface_summarizer
 
 == License
 
